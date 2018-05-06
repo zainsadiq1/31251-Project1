@@ -20,4 +20,5 @@ void testAddVertex(void){
     int r = std::rand()%20;
     for (int i = 0; i < r; ++i) g.add_vertex(i);
     cout << "vertices = " << g.num_vertices() << "\nr = " << r << std::endl;
+    cout << "" + g.get_vertices();
 }

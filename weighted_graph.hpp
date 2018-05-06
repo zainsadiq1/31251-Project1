@@ -207,6 +207,9 @@ template <typename vertex> bool weighted_graph<vertex>::are_adjacent(const verte
 }
 
 template <typename vertex> void weighted_graph<vertex>::add_vertex(const vertex& v) {
+    Vertex* newVertex = new Vertex;
+    newVertex -> id = v;
+    newVertex ->weight = 0;
 
 }
 
